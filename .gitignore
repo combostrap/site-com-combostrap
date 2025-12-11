@@ -14,8 +14,6 @@
 !doc/**
 !docs/
 !docs/**
-## Don't ignore the Task file
-!Taskfile.yml
 ## Don't ignore the conf directory
 !conf/
 ## Ignore all except the local files and tpl directory
@@ -49,3 +47,11 @@ lib/images/*
 ## Don't ignore the interwiki images directory
 !lib/images/interwiki
 !lib/images/interwiki/*
+## Don't ignore the dev files
+!.config
+!.envrc
+!.envrc.devf.sh
+!.pre-commit-config.yaml
+!LICENSE
+!CONTRIBUTING.md
+!Taskfile.yml
