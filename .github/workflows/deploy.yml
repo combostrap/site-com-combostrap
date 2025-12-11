@@ -12,6 +12,16 @@ on:
     paths-ignore:
       - '.github/**'
       - 'docs/**'
+      - '.config/**'
+      - 'README.md'
+      - 'LICENSE'
+      - '.gitignore'
+      - '.gitattributes'
+      - '.envrc'
+      - '.envrc.devf.sh'
+      - 'CONTRIBUTING.md'
+      - '.pre-commit-config.yaml'
+      - 'Taskfile.yml'
 
 defaults:
   run:
