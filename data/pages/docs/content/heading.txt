@@ -81,7 +81,7 @@ This is:
 <code dw>
 <heading type level=1-6>
 Heading
-</heading >
+</heading>
 </code>
 where:
   * [[docs:styling:type|type]] is:
